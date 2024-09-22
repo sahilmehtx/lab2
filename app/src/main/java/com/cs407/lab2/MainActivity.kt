@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         button269.setOnClickListener {
             // Log.i("INFO", "Button Clicker");
             val userInput = text269.text.toString()
-            // Toast.makeText(this, userInput, Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this, userInput, Toast.LENGTH_SHORT).show()
             val intent = Intent(this, CalculatorActivity::class.java)
             intent.putExtra("EXTRA_MESSAGE", userInput)
             startActivity(intent)
